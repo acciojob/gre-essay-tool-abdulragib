@@ -6,14 +6,14 @@ const wordCount = document.getElementById('wordCount');
 textBox.addEventListener('input', function() {
     
     if(textBox.value === ""){
-        wordCount.innerText = 0;
+        wordCount.innerText = 0
     }
     else{
-        const text = textBox.value.trim().split(' ');
+        const text = textBox.value.trim().split(" ")
 
-        if(text.length>0)
+        if(text.length > 0)
           {
-            wordCount.innerHTML = text.length;
+            wordCount.innerText = text.length
           }
     }
  
