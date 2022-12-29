@@ -3,7 +3,7 @@ const textBox = document.getElementById('evaluatedText');
 const wordCount = document.getElementById('wordCount');
 
 // Add an event listener to the textbox that listens for changes
-textBox.addEventListener('input', function() {
+textBox.addEventListener('keyup', function() {
     
     if(textBox.value === ""){
         wordCount.innerText = 0
